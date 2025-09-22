@@ -43,7 +43,7 @@ export class LayoutInitService {
     document.body.setAttribute('style', '');
     document.body.setAttribute('id', 'kt_app_body');
     document.body.setAttribute('data-kt-app-layout', layoutType);
-    document.body.setAttribute('data-kt-name', 'metronic');
+    document.body.setAttribute('data-kt-name', '');
     document.body.classList.add('app-default');
 
     const pageWidth = config.app?.general?.pageWidth;

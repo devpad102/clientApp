@@ -1,0 +1,14 @@
+#kt_app_sidebar_menu_scroll::-webkit-scrollbar {
+  background-color: #f0f0f0;  // Track background
+  width: 8px;  // Optional: Adjust width
+}
+
+#kt_app_sidebar_menu_scroll::-webkit-scrollbar-thumb {
+  background-color: #3f3c3c;  // Thumb background
+  border-radius: 4px;
+}
+
+#kt_app_sidebar_menu_scroll {
+  scrollbar-color: #524a4a #524a4a;  // Firefox: thumb track
+  scrollbar-width: thin;
+}
